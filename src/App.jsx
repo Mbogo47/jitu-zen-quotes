@@ -1,9 +1,8 @@
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
-import About from './components/About';
-import Footer from './components/footer
-
+import { useEffect } from 'react';
+import Footer from './components/footer';
 
 
 
@@ -30,7 +29,7 @@ function App() {
       // cityData = data.data
       setCity(data.data)
 
-      // console.log(data.data)
+      console.log(data.data)
 
     } catch (error) {
       console.log(error)
@@ -53,7 +52,7 @@ function App() {
 
 
 
-      // console.log(dataCountry.data)
+      console.log(dataCountry.data)
 
     } catch (error) {
       console.log(error)
@@ -73,7 +72,7 @@ function App() {
       // countryData = dataCountry.data
       setPlaces(dataPlaces.data)
 
-      // console.log(dataPlaces.data)
+      console.log(dataPlaces.data)
 
     } catch (error) {
       console.log(error)
@@ -93,7 +92,7 @@ function App() {
       // countryData = dataCountry.data
       setCurrency(dataCurrency.data)
 
-      // console.log(dataCurrency.data)
+      console.log(dataCurrency.data)
 
     } catch (error) {
       console.log(error)
@@ -114,8 +113,13 @@ function App() {
 
   return (
     <>
-    <span><h4> Geo city</h4></span>
-    <About/>
+
+      <div className='buttons'>
+      <span>Geo city app</span>
+
+
+
+      </div>
       
       <div className='elements'>
         <div className='city'>
