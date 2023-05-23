@@ -1,6 +1,9 @@
+
 import { useState, useEffect } from 'react'
 import './App.css'
 import About from './components/About';
+import Footer from './components/footer
+
 
 
 
@@ -170,11 +173,12 @@ function App() {
         </div>
       
       </div>
-
+        <Footer/>
 
      
     </>
   )
 }
+
 
 export default App
