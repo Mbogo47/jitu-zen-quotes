@@ -115,7 +115,12 @@ function App() {
     <>
 
       <div className='buttons'>
-      <span>Geo city app</span>
+      <h1 className="description desc1">
+          {" "}
+          <span className="first-letter">s</span>earch for{" "}
+          <span className="first-letter">u</span>niversities by{" "}
+          <span className="first-letter">c</span>ountry
+        </h1>
 
 
 
