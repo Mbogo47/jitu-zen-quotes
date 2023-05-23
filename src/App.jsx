@@ -114,14 +114,15 @@ function App() {
     <>
 
       <div className='buttons'>
-
+      <span>Geo city app</span>
 
 
 
       </div>
+      
       <div className='elements'>
         <div className='city'>
-          <button onClick={() => { fetchCity() }}>City</button>
+          <button className='btn' onClick={() => { fetchCity() }}>City</button>
           {
             city && city.map((city, index) => {
               return (
@@ -135,7 +136,7 @@ function App() {
           }
         </div>
         <div>
-          <button onClick={() => { fetchCountry() }}>Country</button>
+          <button className='btn' onClick={() => { fetchCountry() }}>Country</button>
           {country && country.map((country, index) => {
             return (
               <div className='cityElement' key={index}>
@@ -147,7 +148,7 @@ function App() {
           })}
         </div>
         <div>
-          <button onClick={() => { fetchPlaces() }}>Places</button>
+          <button className='btn' onClick={() => { fetchPlaces() }}>Places</button>
           {places && places.map((places, index) => {
             return (
               <div className='cityElement' key={index}>
@@ -161,7 +162,7 @@ function App() {
         </div>
 
         <div>
-          <button onClick={() => { fetchCurrencies() }}>Currency</button>
+          <button className='btn' onClick={() => { fetchCurrencies() }}>Currency</button>
           {currency && currency.map((currency, index) => {
             return (
               <div className='cityElement' key={index}>
@@ -171,11 +172,13 @@ function App() {
             )
 
           })}
+          
         </div>
+      
       </div>
 
 
-
+     
     </>
   )
 }
