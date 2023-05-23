@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import { useEffect } from 'react';
+import Footer from './components/footer';
 
 
 
@@ -114,7 +115,12 @@ function App() {
     <>
 
       <div className='buttons'>
-      <span>Geo city app</span>
+      <h1 className="description desc1">
+          {" "}
+          <span className="first-letter">s</span>earch for{" "}
+          <span className="first-letter">u</span>niversities by{" "}
+          <span className="first-letter">c</span>ountry
+        </h1>
 
 
 
@@ -176,11 +182,12 @@ function App() {
         </div>
       
       </div>
-
+        <Footer/>
 
      
     </>
   )
 }
+
 
 export default App
