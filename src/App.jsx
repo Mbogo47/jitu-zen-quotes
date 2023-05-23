@@ -117,9 +117,9 @@ function App() {
       <div className='buttons'>
       <h1 className="description desc1">
           {" "}
-          <span className="first-letter">s</span>earch for{" "}
-          <span className="first-letter">u</span>niversities by{" "}
-          <span className="first-letter">c</span>ountry
+          <span className="first-letter">G</span>eo{" "}
+          <span className="first-letter">c</span>ity{" "}
+          <span className="first-letter">a</span>pp
         </h1>
 
 
