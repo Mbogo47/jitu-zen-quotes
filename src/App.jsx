@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import { useEffect } from 'react';
+import Footer from './components/Footer';
 
 
 
