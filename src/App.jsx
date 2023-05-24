@@ -182,7 +182,7 @@ function App() {
         </div>
       
       </div>
-        <Footer/>
+      
 
      
     </>
